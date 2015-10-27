@@ -11,7 +11,7 @@ read some
 }
 
 function export {
-keytool -export -keystore ./templates/keystore/acceptance_ferrari_keystore.jks -alias ams_sp -rfc -file ./templates/keystore/test.csr -storepass $certspass
+keytool -export -keystore ./templates/keystore/'acceptance_'$oemname'_keystore.jks' -alias ams_sp -rfc -file ./templates/keystore/test.csr -storepass $certspass
 tr -d $'\r' < ./templates/keystore/test.csr > ./templates/keystore/res.csr
 sed '/-----BEGIN CERTIFICATE-----/d' ./templates/keystore/res.csr > ./templates/keystore/test.csr 
 sed '/-----END CERTIFICATE-----/d' ./templates/keystore/test.csr > ./templates/keystore/res.csr 
