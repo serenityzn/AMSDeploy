@@ -9,5 +9,7 @@ source ./conf/config.sh
 # functions
 source ./libs/params.sh
 source ./libs/generate.sh
+source ./libs/kstore.sh
+source ./libs/saml.sh
 
 sub1

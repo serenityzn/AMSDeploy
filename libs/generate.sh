@@ -336,6 +336,7 @@ cat >> ./$oemname'_parameters.map' << EOF
 # $oemname AMS END
 EOF
 createlog
+kstore_create
 }
 
 function createlog {
