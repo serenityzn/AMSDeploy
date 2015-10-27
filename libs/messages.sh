@@ -1,0 +1,12 @@
+#!/bin/bash
+message[0]="Fail."
+message[1]="Enter OEM name."
+message[2]="Enter Perseus Node URL."
+message[3]="Enter Perseus Base URL."
+message[4]="Enter Perseus Entitelents."
+message[5]="Enter Perseus Region."
+message[6]="Enter Perseus Product."
+message[7]="Enter Trust Store password."
+message[8]="Enter AMS version."
+message[9]="Enter AMS Agent version."
+message[10]="Enter AMS Forge Rock version."

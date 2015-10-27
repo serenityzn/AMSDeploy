@@ -1,0 +1,13 @@
+#! /bin/bash
+source ./libs/messages.sh
+source ./libs/1_menu.sh
+source ./libs/1_sub.sh
+source ./libs/2_menu.sh
+source ./libs/2_sub.sh
+# Including config
+source ./conf/config.sh
+# functions
+source ./libs/params.sh
+source ./libs/generate.sh
+
+sub1
